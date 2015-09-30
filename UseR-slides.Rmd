@@ -82,7 +82,7 @@ __Bottom Line: If you can write R code you can use shiny!__
 
 - Same way you learned R  
 - R Studio has a great tutorial [http://shiny.rstudio.com/tutorial/](http://shiny.rstudio.com/tutorial/)
-- Slides that I found very useful [bit.ly/shinySEATTLE](bit.ly/shinySEATTLE)
+- Slides that I found very useful [bit.ly/shinySEATTLE](http://www.bit.ly/shinySEATTLE)
 
 
 ## Creating shiny apps
@@ -513,7 +513,7 @@ renderPlot({
 <img src="figs/bigorb.png" height = 200 width = 200 />  <div style = "color:blue">RStudio</div> 
 
 - Shiny tutorial [http://shiny.rstudio.com/tutorial/](http://shiny.rstudio.com/tutorial/)
-- Shiny lectures [bit.ly/shinySEATTLE](bit.ly/shinySEATTLE)
+- Shiny lectures [bit.ly/shinySEATTLE](http://www.bit.ly/shinySEATTLE)
 
 
 ## 
