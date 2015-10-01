@@ -78,24 +78,26 @@ fluidPage(
 
 __Bottom Line: If you can write R code you can use shiny!__ 
 
-<img src="figs/dewy.jpg" width = 400 height = 300>
+>- <img src="figs/dewy.jpg" width = 400 height = 300>
 
 ## How does one "learn" to use Shiny? 
 
 - Same way you learned to use R  
-- R Studio has a great tutorial [http://shiny.rstudio.com/tutorial/](http://shiny.rstudio.com/tutorial/)
-- Slides that I found very useful [bit.ly/shinySEATTLE](http://www.bit.ly/shinySEATTLE)
+
+    - R Studio has a great tutorial [http://shiny.rstudio.com/tutorial/](http://shiny.rstudio.com/tutorial/)
+    - Slides that I found very useful [bit.ly/shinySEATTLE](http://www.bit.ly/shinySEATTLE)
 
 
 ## Creating shiny apps
 
 Two ways: 
 
-1.  Write a `ui.R` and `server.R` file 
+1. Write a `ui.R` and `server.R` file 
     
 2. Write a `.Rmd` file  
 
-    - For interactive documents and presentations  
+    >- For interactive documents and presentations  
+    >- Include `runtime: shiny` in YAML or `render()`
 
 ## `ui.R` file: user interface  
 
@@ -109,7 +111,7 @@ shinyUI(fluidPage(
   ))
 ```
 
-- Add panels, tabs, and format the appearance using a variety of commands
+>- Add panels, tabs, and format the appearance using a variety of commands
 
 ## `server.R` file: server file
 
