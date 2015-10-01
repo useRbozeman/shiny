@@ -78,9 +78,11 @@ fluidPage(
 
 __Bottom Line: If you can write R code you can use shiny!__ 
 
-## How does one "learn" Shiny? 
+<img src="figs/dewy.jpg" width = 400 height = 300>
 
-- Same way you learned R  
+## How does one "learn" to use Shiny? 
+
+- Same way you learned to use R  
 - R Studio has a great tutorial [http://shiny.rstudio.com/tutorial/](http://shiny.rstudio.com/tutorial/)
 - Slides that I found very useful [bit.ly/shinySEATTLE](http://www.bit.ly/shinySEATTLE)
 
