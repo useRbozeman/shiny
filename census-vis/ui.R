@@ -1,10 +1,10 @@
 shinyUI(fluidPage(
   titlePanel(
-    h1("CensusVis")
+    h1("2010 Census Visualization")
   ), 
   sidebarLayout(
     sidebarPanel(
-      helpText("Create demographic maps with information from the 2010 US Census."), 
+      helpText("Create demographic maps:"), 
       selectInput("select", label = h4("Choose a variable to display"), 
                   choices = list("Percent White", "Percent Black",
                                 "Percent Hispanic", "Percent Asian"), 
@@ -17,7 +17,11 @@ shinyUI(fluidPage(
       br(),
       textOutput("text2"), 
       br(), 
-      plotOutput("map")
+      plotOutput("map"),
+      br(),
+      p("This app was created and adapted using lesson 5 in", 
+        img(src = "bigorb.png", height = 40, width = 40),
+        span("RStudio's", style = "color:blue"), "Shiny tutorial")
       )
   )
 ))
