@@ -136,6 +136,7 @@ shinyServer(function(input,output){
 
       >- Easy to translate `ui.R` and `server.R` into `.Rmd` 
 
+
 ## Running an app
 
 - Use the Run button in <div style = "color:blue">RStudio</div> <img src="figs/runApp.png" />  
@@ -435,6 +436,7 @@ shinyServer(function(input, output) {
 })
 ```
 
+
 ## Example: Randomly select one child from a family
 
 ```{r, randapp, echo = FALSE}
@@ -455,6 +457,7 @@ renderText({
   child()  
   })
 ```
+
 
 ## Poisson exploration
 
@@ -512,6 +515,17 @@ renderPlot({
 })
 ```
 
+## Sharing apps
+
+- Anyone with R and the `ui.R` and `server.R` files can use your apps
+- Can run from GitHub repository using `runGitHub("repo name", "user name")`
+- Can host apps on a local server [pois-explore](http://shiny.math.montana.edu/kbanner/user-apps/pois-explore/)
+
+    >- Shinyapps.io
+    >- Shiny Server
+    >- Shiny Server Pro
+    
+    
 ## Thanks to 
 
 <img src="figs/bigorb.png" height = 200 width = 200 />  <div style = "color:blue">RStudio</div> 
