@@ -62,7 +62,7 @@ fluidPage(
     }), 
   br(),
   p("This app was created and adapted using lesson 5 in", 
-    img(src = "../App-3/www/bigorb.png", height = 40, width = 40),
+    img(src = "census-vis/www/bigorb.png", height = 40, width = 40),
     span("RStudio's", style = "color:blue"), "Shiny tutorial")
     )
   )
